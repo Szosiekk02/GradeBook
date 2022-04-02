@@ -10,6 +10,7 @@ namespace GradeBook.GradeBooks
        public StandardGradeBook(string name, bool isweighted) : base(name, isweighted)
         {
             Type = GradeBookType.Standard;
+            //s
         }
     }
 }

@@ -219,7 +219,7 @@ namespace GradeBook.GradeBooks
         ///     Converts json to the appropriate gradebook type.
         ///     Note: This method contains code that is not recommended practice.
         ///     This has been used as a compromise to avoid adding additional complexity to the learner.
-        /// </summary>
+        /// </summary>s
         /// <returns>The to gradebook.</returns>
         /// <param name="json">Json.</param>
         public static dynamic ConvertToGradeBook(string json)

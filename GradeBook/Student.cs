@@ -9,6 +9,7 @@ namespace GradeBook
 {
     public class Student
     {
+        //s
         public string Name { get; set; }
         public StudentType Type { get; set; }
         public EnrollmentType Enrollment { get; set; }
