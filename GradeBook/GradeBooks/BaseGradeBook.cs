@@ -9,7 +9,7 @@ using Newtonsoft.Json.Linq;
 
 namespace GradeBook.GradeBooks
 {
-    public abstract class BaseGradeBook
+    public class BaseGradeBook
     {
         public string Name { get; set; }
         public List<Student> Students { get; set; }
@@ -112,21 +112,7 @@ namespace GradeBook.GradeBooks
             var gpa = 0;
             switch (letterGrade)
             {
-                case 'A':
-                    gpa = 4;
-                    break;
-                case 'B':
-                   gpa =  3;
-                    break;
-                case 'C':
-                    gpa = 2;
-                    break;
-                case 'D':
-                    gpa = 1;
-                    break;
-                case 'F':
-                   gpa = 0;
-                    break;
+
             }
              if (IsWeighted && (studentType == StudentType.Honors || studentType == StudentType.DualEnrolled))
                     gpa ++;
